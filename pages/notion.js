@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Notion from '../Components/Notion'
+
 
 export default function notion() {
+
+    
+
+
   return (
-    <div>notion</div>
+      
+    <div>
+        <Notion />
+    </div>
   )
 }
